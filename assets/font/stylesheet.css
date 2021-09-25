@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Brolink';
+    src: url('Brolink-Regular.eot');
+    src: url('Brolink-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Brolink-Regular.woff2') format('woff2'),
+        url('Brolink-Regular.woff') format('woff'),
+        url('Brolink-Regular.ttf') format('truetype'),
+        url('Brolink-Regular.svg#Brolink-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
