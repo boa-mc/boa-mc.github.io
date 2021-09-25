@@ -94,3 +94,12 @@ body {
 .install-button:hover {
     background-color: RoyalBlue;
 }
+
+@font-face {
+    font-family: 'BroLink';
+    src: url('assets/font/Brolink-Regular.eot');
+    src: url('assets/font/Brolink-Regular.eot') format('embedded-opentype'),
+    url('assets/font/Brolink-Regular.woff') format('woff'),
+    url('assets/font/Brolink-Regular.ttf')  format('truetype'),
+    url('assets/font/Brolink-Regular.svg') format('svg');
+}
