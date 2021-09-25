@@ -1,0 +1,96 @@
+.navbar {
+    background-color: #212121;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-logo {
+    height: 35px;
+}
+
+.navbar-button {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-button .in{
+    font-size: 30px;
+    height: 26px;
+    font-family: "BroLink";
+    border-radius: 5px;
+}
+.navbar-button .in:hover{
+    background-color: #3a3a3a;
+}
+
+.navbar-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-spacer {
+    flex-grow: 30;
+}
+
+body {
+    margin: 30px 0 0 0;
+}
+
+.welcometext {
+    background-color: purple;
+}
+
+.welcome-image {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    height: 100%;
+}
+
+.welcome-image div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcome-image div img {
+    opacity: 1;
+}
+
+.welcome-image img{
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.install-button {
+    background-color: DodgerBlue;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.install-button:hover {
+    background-color: RoyalBlue;
+}
